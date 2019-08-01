@@ -4,5 +4,15 @@
 	</head>
 	<body>
 		<img srcset="https://via.placeholder.com/350 320w, https://via.placeholder.com/1000 1420w" sizes="(min-width:640px) 1420px, 320px" />
+  		<img src='https://via.placeholder.com/350'
+       		srcset='https://via.placeholder.com/350 1x,
+               https://via.placeholder.com/700 2x'/>
+        <picture>
+	      <source media='(min-width: 401px)'
+	              srcset='https://via.placeholder.com/500'/>
+	      <source media='(max-width: 400px)'
+	              srcset='https://via.placeholder.com/400'/>
+	      <img src='https://via.placeholder.com/400'/>
+    	</picture>
 	</body>
 </html>
